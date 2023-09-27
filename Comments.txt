@@ -1,0 +1,10 @@
+This program can: 
+- calculate the area of the circle knowing only the radius
+- calculate the area of the triangle knowing only the length of its sides
+- show the user that triangle is right (for example, with sides 8, 6, 10). If the triangle isn't right, only the area will be printed
+
+Also, there are some unit-tests for 2 methods (area of a circle and area of a triangle).
+
+To add new figure the user should simply add a method to the Calculator class in calcsquare.py like it's done with method new_figure.
+
+This package has been successfully downloaded to TestPyPI.
