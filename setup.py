@@ -7,7 +7,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="calcsquare",
-    version="0.0.6",
+    version="0.0.7",
     author="RA",
     author_email="romandreev.it@gmail.com",
     description="A package to calculate area of a circle and triangle",
