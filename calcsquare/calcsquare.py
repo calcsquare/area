@@ -1,10 +1,20 @@
-def convert(my_name):
+import math
+
+
+def calculate(radius, x, y, z):
     """
-    Print a line about converting a notebook.
+    Print an area of a figure.
     Args:
-        my_name (str): person's name
+        radius (int): radius of a circle
+        x (int) : 1st side of a triangle
+        y (int) : 2nd side of a triangle
+        z (int) : 3rd side of a triangle
     Returns:
-        None
+        circle_square (float): area of a circle
+        triangle_square (float): area of a triangle
     """
 
-    print(f"I'll convert a notebook for you some day, {my_name}.")
+    circle_square = math.pi * radius**2
+    halfperimeter = (x + y + z) / 2
+    triangle_square = math.sqrt(halfperimeter * (halfperimeter - x) * (halfperimeter - y) * (halfperimeter - z))
+    return circle_square, triangle_square
